@@ -10,6 +10,9 @@ export default {
          inria:["Inria Sans", "sans-serif"],
           poppins:["Poppins", "sans-serif"],
           jost:["Jost", "sans-serif"]
+      },
+      backgroundImage:{
+        banner:"url('./src/assets/bg_banner.png')"
       }
     },
   },
