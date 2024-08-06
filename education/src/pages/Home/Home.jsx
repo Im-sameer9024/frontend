@@ -1,5 +1,6 @@
 import Counseling from "../../components/Counseling";
 import Faq from "../../components/Faq";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Testimonials from "../../components/Testimonials";
 import TopDestinations from "../../components/TopDestinations";
@@ -15,6 +16,7 @@ export default function Home() {
       <WhyChoose/>
       <Testimonials/>
       <Faq/>
+     
     </>
   )
 }

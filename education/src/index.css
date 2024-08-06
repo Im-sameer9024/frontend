@@ -9,8 +9,9 @@
 body{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   overflow-x: hidden;
+  width: 100vw;
+  height: auto;
 }
 
 .topNav{
@@ -26,3 +27,21 @@ body{
       opacity: 1;
   }
 }
+
+#faq{
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+#Navbar{
+  animation: fadeIn 0.5s ease-out ;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+}
+};

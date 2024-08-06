@@ -12,7 +12,9 @@ export default {
           jost:["Jost", "sans-serif"]
       },
       backgroundImage:{
-        banner:"url('./src/assets/bg_banner.png')"
+        banner:"url('./src/assets/bg_banner.png')",
+        banner2:"url('./src/assets/banner.jpeg')"
+
       }
     },
   },

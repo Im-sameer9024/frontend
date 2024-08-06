@@ -17,6 +17,7 @@ import choose3 from './choose3.jpeg'
 import choose4 from './choose4.jpeg'
 import choose5 from './choose5.jpeg'
 import choose6 from './choose6.jpeg'
+import monialimg from './testimonial.png'
 
 
 
@@ -41,10 +42,19 @@ export const images ={
   choose4,
   choose5,
   choose6,
-
+monialimg,
 
 
 }
+
+export const testimonial =[
+  {id:0,description:"Grateful to Richard Sir and the entire SIO Team, for making my dream to study in the UK come true. Their endless support and efforts to file applications on time is commendable. From shortlisting colleges to finding.",img:monialimg,name:"anamika",school:"delhi"},
+  {id:1,description:"Grateful to Richard Sir and the entire SIO Team, for making my dream to study in the UK come true. Their endless support and efforts to file applications on time is commendable. From shortlisting colleges to finding.",img:monialimg,name:"sameer",school:"jaipur"},
+  {id:2,description:"Grateful to Richard Sir and the entire SIO Team, for making my dream to study in the UK come true. Their endless support and efforts to file applications on time is commendable. From shortlisting colleges to finding.",img:monialimg,name:"anamika",school:"delhi"},
+  {id:3,description:"Grateful to Richard Sir and the entire SIO Team, for making my dream to study in the UK come true. Their endless support and efforts to file applications on time is commendable. From shortlisting colleges to finding.",img:monialimg,name:"raj",school:"delhi"},
+  {id:4,description:"Grateful to Richard Sir and the entire SIO Team, for making my dream to study in the UK come true. Their endless support and efforts to file applications on time is commendable. From shortlisting colleges to finding.",img:monialimg,name:"anamika",school:"slkfjsli"},
+  {id:5,description:"Grateful to Richard Sir and the entire SIO Team, for making my dream to study in the UK come true. Their endless support and efforts to file applications on time is commendable. From shortlisting colleges to finding.",img:monialimg,name:"hello",school:"delhi"},
+]
 
 export const headerData = [{id:0,title:"Attend CT's Biggest Australia Education Fair",description:"Interact with representatives & faculty members from leading Australian Instituions" ,btn:"Enquire Now"},
   {id:1,title:"Attend CT's Biggest Australia Education Fair",description:"Interact with representatives & faculty members from leading Australian Instituions" ,btn:"Enquire Now"},

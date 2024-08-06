@@ -11,7 +11,7 @@ export default function WhyChoose() {
         </div>
 
         {/* Grid section  */}
-        <div className=" grid grid-cols-4 gap-4 grid-rows-2 my-[2rem]">
+        <div className=" lg:grid-cols-4 grid grid-cols-1 gap-4  my-[2rem]">
 
           {/* grid-1  */}
           <div className="bg-slate-300 rounded-xl relative ">

@@ -10,14 +10,14 @@ export default function Counseling() {
     <div className="w-[100vw] h-auto bg-[#F0F0F0]">
       <div className="w-10/12 mx-auto py-[3rem]">
         <div>
-          <h1 className=" text-center font-poppins text-[#1F94F3] font-bold text-[2rem]">THE COUNSELING PROCESS</h1>
-          <p className=" font-jost text-center ">Professional-Streamlined-Simple</p>
+          <h1 className=" text-center font-poppins text-[#1F94F3] font-bold text-[1.3rem]">THE COUNSELING PROCESS</h1>
+          <p className=" text-[0.8rem] font-jost text-center ">Professional-Streamlined-Simple</p>
         </div>
         {/* steps  */}
-        <div className=" flex justify-between mt-[3rem]">
+        <div className=" flex gap-5 md:flex-wrap md:flex-row flex-col items-center justify-between mt-[3rem] flex-wrap">
         
           {/* step-1  */}
-          <div className="w-2/12 flex flex-col items-center gap-3 text-center">
+          <div className="w-8/12 md:w-5/12 lg:w-2/12  flex flex-col items-center gap-3 text-center">
             <div className="bg-[#1F94F3] w-[3.5rem] font-bold text-white text-[2rem] rounded-full flex justify-center items-center h-[3.5rem]">1</div>
             <div>
               <img src={images.step1} alt="step1" />
@@ -27,7 +27,7 @@ export default function Counseling() {
           </div>
 
           {/* step-2  */}
-          <div className="w-2/12 flex flex-col items-center gap-3 text-center">
+          <div className="w-8/12  md:w-5/12 lg:w-2/12 flex flex-col items-center gap-3 text-center">
             <div className="bg-[#1F94F3] w-[3.5rem] font-bold text-white text-[2rem] rounded-full flex justify-center items-center h-[3.5rem]">2</div>
             <div>
               <img src={images.step2} alt="step1" />
@@ -38,7 +38,7 @@ export default function Counseling() {
 
 
           {/* step-3  */}
-          <div className="w-2/12 flex flex-col items-center gap-3 text-center">
+          <div className="w-8/12 md:w-5/12 lg:w-2/12 flex flex-col items-center gap-3 text-center">
             <div className="bg-[#1F94F3] w-[3.5rem] font-bold text-white text-[2rem] rounded-full flex justify-center items-center h-[3.5rem]">3</div>
             <div>
               <img src={images.step3} alt="step1" />
@@ -48,7 +48,7 @@ export default function Counseling() {
           </div>
 
           {/* step-4  */}
-          <div className="w-2/12 flex flex-col items-center gap-3 text-center">
+          <div className="w-8/12 md:w-5/12 lg:w-2/12 flex flex-col items-center gap-3 text-center">
             <div className="bg-[#1F94F3] w-[3.5rem] font-bold text-white text-[2rem] rounded-full flex justify-center items-center h-[3.5rem]">4</div>
             <div>
               <img src={images.step4} alt="step1" />
@@ -58,7 +58,7 @@ export default function Counseling() {
           </div>
 
           {/* step-5 */}
-          <div className="w-2/12 flex flex-col items-center gap-3 text-center">
+          <div className="w-8/12 md:w-5/12 lg:w-2/12 flex flex-col items-center gap-3 text-center">
             <div className="bg-[#1F94F3] w-[3.5rem] font-bold text-white text-[2rem] rounded-full flex justify-center items-center h-[3.5rem]">5</div>
             <div>
               <img src={images.step5} alt="step1" />
