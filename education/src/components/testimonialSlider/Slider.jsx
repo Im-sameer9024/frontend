@@ -36,7 +36,7 @@ const Slider = () => {
   console.log(testimonial)
 
   return (
-    <section id="slider" className="pt-5">
+    <section id="slider" className="pt-5 mx-auto">
       <div className="container">
         <h1 className="text-center text-[2rem] text-yellow-500"><b>TESTIMONIALS</b></h1>
         <p className=' text-center'>What Our Students Say</p>

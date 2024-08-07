@@ -36,8 +36,10 @@ export default function Testimonials() {
 
       </div>
 
-      {/* Slider  */}
-      <Slider/>
+     <div className=" w-full flex">
+       {/* Slider  */}
+       <Slider/>
+     </div>
 
       {/* For Mobile screen  */}
 
