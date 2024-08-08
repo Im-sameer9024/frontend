@@ -5,7 +5,7 @@ import Slider from "./testimonialSlider/Slider";
 export default function Testimonials() {
   return (
     <>
-      <div className=" hidden lg:block   relative bg-banner bg-center bg-contain  bg-no-repeat w-[100vw] h-auto lg:h-[60vh]">
+      <div className=" lg:block   relative bg-banner bg-center bg-contain  bg-no-repeat w-[100vw] h-auto lg:h-[60vh]">
 
         <div className=" absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-10/12 bg-[#FAB819] mx-auto flex justify-evenly h-auto">
 
