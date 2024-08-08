@@ -1,8 +1,8 @@
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { StoreContext } from "../Context-API/StoreContext";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { FaUser } from "react-icons/fa6";
+// import { FaUser } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 
 
@@ -47,13 +47,13 @@ export default function Navbar() {
           </div>
 
           {/* Pages list  */}
-          <ul className=" lg:flex lg:gap-3 lg:text-[1rem] hidden">
-            <Link to="/">Home</Link>
-            <Link to="/services">Services</Link>
-            <Link to="/about">About us</Link>
-            <Link to="/contact">Contact us</Link>
-            <Link to="/university">Universities</Link>
-            <Link to="/testimonial">Testimonials</Link>
+          <ul className=" list lg:flex xl:gap-[3rem] lg:gap-3 lg:text-[1rem] hidden">
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/services">Services</NavLink>
+            <NavLink to="/about">About us</NavLink>
+            <NavLink to="/contact">Contact us</NavLink>
+            <NavLink to="/university">Universities</NavLink>
+            <NavLink to="/testimonial">Testimonials</NavLink>
           </ul>
         </div>
 

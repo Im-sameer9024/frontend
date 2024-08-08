@@ -45,3 +45,13 @@ body{
     opacity:1;
 }
 };
+
+.list .active{
+  color:#1F94F3;
+}
+
+.light-black{
+  animation: fadeIn 0.5s ease-out ;
+}
+
+ 

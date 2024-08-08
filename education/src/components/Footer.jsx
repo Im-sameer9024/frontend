@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import footlogo from '../assets/footlogo.png'
 export default function Footer() {
   return (
-    <div className=" w-[100vw] h-auto bg-[#1C1F2A] text-white">
+    <div className=" sticky w-[100vw] h-auto bg-[#1C1F2A] text-white">
       <div className="w-10/12 mx-auto md:flex-row md:justify-between flex flex-col justify-between py-[2rem]">
         {/* left section  */}
 

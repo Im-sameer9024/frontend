@@ -1,13 +1,13 @@
 import Counseling from "../../components/Counseling";
 import Faq from "../../components/Faq";
-import Footer from "../../components/Footer";
+// import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Testimonials from "../../components/Testimonials";
 import TopDestinations from "../../components/TopDestinations";
 import WhyChoose from "../../components/WhyChoose";
 
 
-export default function Home() {
+export default function Home() { 
   return (
     <>
       <Header />
@@ -16,7 +16,6 @@ export default function Home() {
       <WhyChoose/>
       <Testimonials/>
       <Faq/>
-     
     </>
   )
 }

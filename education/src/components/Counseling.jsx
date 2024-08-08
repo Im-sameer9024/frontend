@@ -7,11 +7,11 @@ export default function Counseling() {
   const { images } = useContext(StoreContext)
 
   return (
-    <div className="w-[100vw] h-auto bg-[#F0F0F0]">
+    <div className="w-[100vw] mt-[8rem] h-auto bg-[#F0F0F0]">
       <div className="w-10/12 mx-auto py-[3rem]">
         <div>
-          <h1 className=" text-center font-poppins text-[#1F94F3] font-bold text-[1.3rem]">THE COUNSELING PROCESS</h1>
-          <p className=" text-[0.8rem] font-jost text-center ">Professional-Streamlined-Simple</p>
+          <h1  className=" text-center font-poppins text-[#1F94F3] font-bold text-[2rem]">THE COUNSELING PROCESS</h1>
+          <p  className=" font-jost text-center text-slate-500 ">Professional-Streamlined-Simple</p>
         </div>
         {/* steps  */}
         <div className=" flex gap-5 md:flex-wrap md:flex-row flex-col items-center justify-between mt-[3rem] flex-wrap">

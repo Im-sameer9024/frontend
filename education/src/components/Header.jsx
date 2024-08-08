@@ -2,10 +2,11 @@ import { useContext } from "react"
 import { StoreContext } from "../Context-API/StoreContext"
 import Slider from "react-slick";
 import './Header.css'
+import { images } from '../assets/data'
 
 export default function Header() {
 
-  const {  headerData } = useContext(StoreContext)
+  const { headerData } = useContext(StoreContext)
   const settings = {
     dots: true,
     infinite: true,
@@ -18,34 +19,32 @@ export default function Header() {
     cssEase: 'linear'
   };
   return (
-    <div className=" bg-[#1C1F2A] w-[100vw] h-auto ">
-      <div className=" w-10/12 mx-auto flex justify-between items-center relative">
-        {/* Left Section  */}
-        <div className="w-10/12 lg:w-5/12 mx-auto my-[3.5rem] text-white">
+    <div className="w-full h-auto relative">
 
-          {/* Slider  */}
-
-          <Slider {...settings}>
-            {
-              headerData.map((el) => (
-                <div key={el.id} className=" space-y-5">
-                  <h1 className=" text-[1.3rem] md:text-[1.7rem] font-bold font-poppins">{el.title}</h1>
-                  <p className=" font-jost md:text-[1.1rem]">{el.description}</p>
-                  <button className=" bg-[#1F94F3] hover:bg-[#077bda] px-[1rem] rounded-3xl py-2  md:text-[1.3rem] ">Enquire Now</button>
-                </div>
-
-              ))
-            }
-          </Slider>
-        </div>
-
-        {/* Right Section  */}
-        {/* <div className="relative hidden  w-4/12 lg:flex">
-          <img src={images.Headerimg2} alt="student-1" />
-          <img src={images.Headerimg1} alt="student-2" className=" absolute left-[-10rem] " />
-        </div> */}
-
+      <div className=" w-[100vw]">
+        <img src={images.homeHeader} alt="img" />
       </div>
+
+
+      {/* Slider  */}
+      <div className="w-10/12 z-20 md:w-7/12 left-[3rem] lg:w-5/12 mx-auto absolute top-0  text-white">
+
+        <Slider {...settings}>
+          {
+            headerData.map((el) => (
+              <div key={el.id} className=" lg:space-y-5 space-y-1 md:mt-6 md:space-y-5 mt-1 lg:mt-[5rem]">
+                <h1 className=" text-[0.8rem] md:text-[1.9rem] font-bold font-poppins">{el.title}</h1>
+                <p className=" text-[0.6rem] font-jost md:text-[1.1rem]">{el.description}</p>
+                <button className=" bg-[#1F94F3] hover:bg-[#077bda] px-[0.9rem] text-[0.5rem] rounded-3xl py-1  md:text-[1.2rem] ">Enquire Now</button>
+              </div>
+
+            ))
+          }
+        </Slider>
+      </div>
+
     </div>
   )
 }
+
+
