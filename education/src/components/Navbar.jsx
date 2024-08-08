@@ -95,15 +95,15 @@ export default function Navbar() {
           {/* section-2  */}
           <div className=' text-[1.2rem] flex flex-col space-y-[1rem] font-bold'>
             <hr className=' border-black border ' />
-            <h1 className=' pl-[2rem]'>Home</h1>
+            <NavLink to="/" className=' pl-[2rem]'>Home</NavLink>
             <hr className=' border-black border' />
-            <h1 className=' pl-[2rem]'>Services</h1>
+            <NavLink to="/services" className=' pl-[2rem]'>Services</NavLink>
             <hr className=' border-black border' />
-            <h1 className=' pl-[2rem]'>About us</h1>
+            <NavLink to="/about" className=' pl-[2rem]'>About us</NavLink>
             <hr className=' border-black border' />
-            <h1 className=' pl-[2rem]'>Universities</h1>
+            <NavLink to="/university" className=' pl-[2rem]'>Universities</NavLink>
             <hr className=' border-black border' />
-            <h1 className=' pl-[2rem]'>Testimonials</h1>
+            <NavLink to="/testimonial" className=' pl-[2rem]'>Testimonials</NavLink>
           </div>
         </div>
 

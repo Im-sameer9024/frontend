@@ -1,7 +1,20 @@
-import React from 'react'
+
+import Ourheader from '../Ourheader'
+import Alltestmonials from './Alltestmonials'
+import Parenttestimonial from './Parenttestimonial'
+import Studenttestimonial from './Studenttestimonial'
 
 export default function Testimonials() {
+
+  const title = "Testimonials"
+
+
   return (
-    <div>Testimonials</div>
+    <>
+      <Ourheader title={title} />
+      <Alltestmonials/>
+      <Parenttestimonial/>
+      <Studenttestimonial/>
+    </>
   )
 }

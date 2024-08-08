@@ -19,10 +19,10 @@ export default function Professional() {
         </div>
 
         {/* second section  */}
-        <div className=' mt-[2rem]  flex flex-wrap justify-between'>
+        <div className=' mt-[2rem] flex-col gap-[2rem] md:flex-wrap md:flex-row  flex flex-wrap justify-between'>
 
           {/* first  */}
-          <div onMouseEnter={()=>setShow1(true)} onMouseLeave={()=> setShow1(false)} className=' relative w-3/12 rounded-xl shadow-xl'>
+          <div onMouseEnter={()=>setShow1(true)} onMouseLeave={()=> setShow1(false)} className=' md:w-3/12 relative w-full rounded-xl shadow-xl'>
             <img src={images.team} alt="img" className='rounded-xl shadow-xl ' />
             <div className={` cursor-pointer light-black flex rounded-xl justify-end px-5 pb-[2rem] text-center flex-col  top-0 h-full w-full text-white absolute bg-black bg-opacity-35 ${show1 ? 'block' :'hidden'} `}>
               <h1 className='font-bold text-[1.5rem]'>Linda asand</h1>
@@ -32,7 +32,7 @@ export default function Professional() {
           </div>
 
           {/* second  */}
-          <div onMouseEnter={()=>setShow2(true)} onMouseLeave={()=> setShow2(false)} className=' relative w-3/12 rounded-xl shadow-xl'>
+          <div onMouseEnter={()=>setShow2(true)} onMouseLeave={()=> setShow2(false)} className='md:w-3/12 relative w-full rounded-xl shadow-xl'>
             <img src={images.team} alt="img"  className='rounded-xl shadow-xl ' />
             <div className={` cursor-pointer light-black flex rounded-xl justify-end px-5 pb-[2rem] text-center flex-col  top-0 h-full w-full text-white absolute bg-black bg-opacity-35 ${show2 ? 'block' :'hidden'} `}>
               <h1 className='font-bold text-[1.5rem]'>Linda asand</h1>
@@ -42,7 +42,7 @@ export default function Professional() {
           </div>
 
           {/* third  */}
-          <div onMouseEnter={()=>setShow3(true)} onMouseLeave={()=> setShow3(false)} className=' relative w-3/12 rounded-xl shadow-xl'>
+          <div onMouseEnter={()=>setShow3(true)} onMouseLeave={()=> setShow3(false)} className=' md:w-3/12 relative w-full rounded-xl shadow-xl'>
             <img src={images.team} alt="img"  className='rounded-xl shadow-xl ' />
             <div className={` cursor-pointer light-black flex rounded-xl justify-end px-5 pb-[2rem] text-center flex-col  top-0 h-full w-full text-white absolute bg-black bg-opacity-35 ${show3 ? 'block' :'hidden'} `}>
               <h1 className='font-bold text-[1.5rem]'>Linda asand</h1>

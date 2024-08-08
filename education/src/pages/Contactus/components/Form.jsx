@@ -4,10 +4,10 @@ export default function Form() {
   return (
     <div className="w-[100vw] h-auto bg-gray-100 py-[3rem]" >
 
-      <div className="w-10/12 mx-auto flex justify-between">
+      <div className="w-full mx-auto lg:flex-row lg:w-10/12 lg:mx-auto lg:justify-between flex flex-col">
 
         {/* section-1  */}
-      <div className="flex justify-center items-center w-7/12 bg-gray-100">
+      <div className=" lg:w-7/12 flex justify-center items-center w-full bg-gray-100">
         <div className=" p-8 rounded-lg w-full">
           <h2 className="text-2xl font-bold mb-6 text-gray-800">Got a question? Ask our team!</h2>
           <p className="text-gray-600 mb-6">Fill out the contact form and we will get back to you with the right answer.</p>
@@ -40,7 +40,7 @@ export default function Form() {
       </div>
 
       {/* section 2  */}
-        <div className=" bg-white w-4/12 border-t-[#1F94F3] border-t-4 px-[2rem] py-[1rem] space-y-[1rem] ">
+        <div className=" lg:w-4/12 bg-white w-10/12 mx-auto border-t-[#1F94F3] border-t-4 px-[2rem] py-[1rem] space-y-[1rem] ">
         <div className=" text-slate-500">
           <h1><b>Lorem ipsum dolor</b> sit amet.</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa.</p>

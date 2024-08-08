@@ -13,10 +13,10 @@ export default function Ourservices() {
 
         {/* second sections  */}
 
-        <div className=' flex mx-auto justify-evenly gap-4 w-full h-auto my-[3rem] '>
+        <div className=' flex flex-col lg:flex-row mx-auto justify-evenly gap-4 w-full h-auto my-[3rem] '>
 
           {/* left side section  */}
-          <div className=" w-5/12 flex  flex-col gap-[6rem] items-end text-end ">
+          <div className=" w-full flex  flex-col gap-[6rem] text-center items-center ">
 
             {/* service1 img  */}
             <div className=' w-[20rem]'>
@@ -57,7 +57,7 @@ export default function Ourservices() {
           </div>
 
           {/* Middle section  */}
-          <div className=" flex flex-col gap-[16rem] item-center  bg-sky-400 w-1 ">
+          <div className=" hidden lg:flex flex-col gap-[16rem] item-center  bg-sky-400 w-1 ">
             {/* first block  */}
             <div className='bg-sky-400 ml-[-6px] w-4 h-4 rotate-45 mt-[6rem] relative'>
               <div className=' absolute bottom-[-6px] left-4 bg-sky-400 rotate-45 w-1 h-[3rem]'></div>
@@ -90,7 +90,7 @@ export default function Ourservices() {
           </div>
 
           {/* right side section  */}
-          <div className=" w-5/12 flex  flex-col gap-[6rem] mt-[4rem] ">
+          <div className=" text-center items-center w-full flex  flex-col gap-[6rem] mt-[4rem] ">
 
             {/* text section  */}
             <div>

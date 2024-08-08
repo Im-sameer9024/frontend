@@ -13,12 +13,11 @@ export default function Universities() {
   return (
     <>
       <Ourheader title={title} />
-      <div>
+      <div className=" w-10/12 mx-auto mt-[3rem]">
         <Filtered country={country} setCountry={setCountry} />
       </div>
-      <div>
+      <div className=" my-[3rem]">
         <Allcards country={country} />
-
       </div>
 
     </>

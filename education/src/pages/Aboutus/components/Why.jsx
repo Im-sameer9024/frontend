@@ -11,7 +11,7 @@ export default function Why() {
         </div>
 
         {/* section second  */}
-        <div className=" my-[3rem] flex justify-between text-center">
+        <div className=" my-[3rem] flex flex-col gap-4 justify-between text-center">
           <div>
             <h1 className=" text-[3rem] text-[#1F94F3] font-poppins">100%</h1>
             <p className=" font-jost font-semibold">VISA GRANT (2023-24)</p>

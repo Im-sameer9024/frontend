@@ -21,7 +21,7 @@ export default function Allcards({ country }) {
   console.log(getAllCards())
 
   return (
-    <div className=''>
+    <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center w-10/12 mx-auto gap-4'>
       {
         (getAllCards() && getAllCards()[0]).map((data) => (
           <Unicard key={data.id} title={data.title} description={data.description} badge={data.badge} image={data.img} />
